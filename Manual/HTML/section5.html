@@ -1,1 +1,225 @@
-<html><head>	<title></title></head><body  TEXT="#000000"  BGCOLOR="#FFCC66" LINK="#0000ff" VLINK="#000080"><P>&nbsp;</P><H1 align=center><a name=top>5. Structuring Text </H1><P align=center>&nbsp;</P><P>The next step involves structuring the text. The second interface of the RSTTool allows the user to connect the segments into a rhetorical structure tree, as shown in figure 2. We have followed the graphical style presented in Mann &amp; Thompson (1987). <BR>&nbsp; <P><CENTER><IMG src="structurer.gif" > <br>Figure 2: The Structurer interface. </CENTER><P>Initially, all segments are unconnected, ordered at the top of the window. The user can then drag the mouse from one segment (the satelite) to another (the nucleus) to link them (see instructions below). <P>The system allows both plain RST relations and also multi-nuclear relations (e.g., joint, sequence, etc.). Scoping is also possible, whereby the user indicates that the nucleus of a relation is not a segment itself, but rather a segment and all of its satellites. See figure 3 for an example combining normal RST relations (Coocurrence, Cause); multi-nuclear structure (Conjunction), and scoping (the nodes marked 3-4 and 5-6). In addition, McKeon-style <I>schemas</I> can be used to represent constituency-type structures. See figure 4. <P><CENTER><IMG src="rst.gif"> <br>Figure 3: RST Structuring </CENTER><P>&nbsp;<CENTER><IMG src="joke.gif"> <br>Figure 4: Schema-based Structuring </CENTER><P><B>Where to Click</B>: For all interface actions involving clicking on the interface, a box will appear under the nodes which are valid to click upon when the mouse cursor is over them. For instance, in link mode, only those text nodes which are not currently a satelite of any node will hilight. When dragging from a satelite to a nucleus, only those objects on the screen which can be dragged to will be boxed. Note however that boxing does not apply to actions such as changing relation names (see below) or collapse/expand of structure. <P>In the following, &quot;clicking&quot; on a node implies the left button on multiple-mouse systems (e.g., Sun, PC). <P><TABLE border=2 width=100%>        <TR>        <TD bgColor=#0000ff colSpan=2 vAlign=center><B>		<FONT color=#ffffff>Structuring Operations</FONT></B>&nbsp; </TD></TR>    <TR>        <TD width=150><B>Linking             Nodes</B></TD>        <TD><B>To link             two nodes</B>:&nbsp;             <OL>                <LI>Make sure you are in the                 &quot;Link&quot; mode: the &quot;Link&quot; button should be                 depressed, and the cursor should change to a                 &quot;&lt;-&gt;&quot; (only when over the edit canvas).&nbsp;                 <LI>Then, click down on the satelite node                 and drag to the nucleus (following the direction in which the                 RST arrow should be drawn). Then Release.&nbsp;                 <LI>A menu will be offered of the available                 relations. Select one by clicking on it.&nbsp;                 <LI>The nodes will then be linked.&nbsp;                 </LI></OL>            <P><B>Where to             Click:&nbsp; </B>when connecting two nodes,&nbsp; you need to click on the 'text' part of the node. This will be             the text of a leaf node.&nbsp; For span, multinuclear and schema             nodes, click on the text indicating the span (e.g., 1-3). The             applicable screen objects will be boxed when the mouse is over             them.&nbsp;             <P><B>Illegal Links</B>:             If the link is illegal for some reason (e.g., the satelite already             has a nucleus), then no link will be formed.&nbsp;             <P><B>Linking to a             Multinuclear or Schema Node</B>: If the nucleus is a multinuclear or             schema node, you will first be asked whether you want to link the             nodes using a simple RST relation or multinuclear/schema relation.             If you select multinuclear, then the node will be linked using the             same relation as the other element(s) of that multinuclear             structure. If you select &quot;schema&quot;, then you will be             presented with a list of the possible elements of the schema.&nbsp;             <P><B>Linking Distant             Nodes</B>: <font color=red>[NEW] </font>When two nodes to be linked are not present on the page             at the same time, you cannot drag between them. To link them, shift-click	    on the satelite, then scroll the page to bring the nucleus into view.	    click on this node to link the satelite to it.             <P><B>Choosing the             Relation</B>: the list of relations offered to you is contextually             restricted, e.g., when linking to a schema, only the elements of             that schema will be offered.&nbsp;             <P>	If none of the offered relations are             appropriate for this instance (the relation is not yet defined in             the system) you can press the &quot;Add New&quot; button at the             bottom of the relation list to define a new relation. It will be             added to the Relation Set.&nbsp;</P></TD></TR>	<TR><TD vAlign=center width=150><B>Unlinking Nodes</B> </TD>        <TD>To unlink two nodes:&nbsp;             <OL>                <LI>Make sure you are in the                 &quot;Unlink&quot; mode: the &quot;Unlink&quot; button should be                 depressed, and the cursor should change to a &quot;X&quot; (only                 when over the edit canvas).&nbsp;                 <LI>Then, click on the satelite of the                 relation to be deleted.&nbsp;                 <LI>The relation will then be unlinked                 (sorry, no undo on such operations as yet).&nbsp; </LI></OL></TD></TR>    <TR>        <TD vAlign=center width=150><B>Inserting Text Spans</B></TD>        <TD>To insert a Span node over an             existing node:&nbsp;             <OL>                <LI>Click on the <I>Span</I> button;&nbsp;                 <LI>Click on the Node you require the Span                 node over.&nbsp; </LI></OL>            <P>A Span node allows you to group together a             nucleus and all of its satelites into a single node. They allow you             to vary the <I>scoping</I> of             relations.&nbsp;</P>            <P>Note: New in version 2.4: you can now insert             spans over elements which already have structure over             them.</P></TD></TR>    <TR>        <TD vAlign=center width=150><B>Inserting Multinuclear Nodes</B>&nbsp; </TD>        <TD>To Insert a multinuclear node             over a top-level node;&nbsp;             <OL>                <LI>Click on the <I>Multinuclear</I> button;&nbsp;                 <LI>Click on the Node you require the                 Multinuclear node over.&nbsp;                 <LI>Select one of the multinuclear                 relations from the offered list.&nbsp; </LI></OL>            <P>Subsequent children linked to the             multinuclear node will be joined with the same relation.&nbsp;</P>            <P>Note: New in version 2.4: you can now insert             multinuclear nodes over elements which already have structure over             them.</P></TD></TR>    <TR>        <TD vAlign=center width=150><B>Inserting a Schema</B></TD>        <TD>To Insert a schema node over a             top-level node;&nbsp;             <OL>                <LI>Click on the <I>Schema</I> button;&nbsp;                 <LI>Click on the Node you require the                 Schema node over.&nbsp;                 <LI>Select one of the schema elements from                 the offered list.&nbsp; </LI></OL>            <P>When linking subsequent children to the             schema node, you will be offered a list of the elements only of that             schema.&nbsp;</P>            <P>Note: New in version 2.4: you can now insert             schemas over elements which already have structure over             them.</P></TD></TR>    <TR>        <TD vAlign=center width=150><B>Changing a Relation</B></TD>        <TD>You can change the name of a             relation just by clicking on it, and selecting a replacement from             the list.&nbsp; </TD></TR>    <TR>        <TD vAlign=center width=150><B>Collapsing/Expanding Subtrees</B>&nbsp; </TD>        <TD> Because RST-structures can             become very elaborate, the RSTTool allows the user to <I>collapse</I> sub-trees -- hiding the substructure under a             node, This makes it easier, for instance, to connect two nodes which             normally would not appear on the same page of the editor.&nbsp;             <UL>                <LI>To collapse structure, click on the                 <EM>Collapse/Expand</EM>  mode button. The cursor, when over                 the analysis space, should change to an up-down arrow. The                 cursor changes to an up-arrow when over a unit which can be collapsed                 (any nonterminal node). Collapsed structure is indicated by a                 triangle on the display.</LI></UL>                                                                   <UL>                                                                                         <LI>To Expand a subtree again, switch to                 <EM>Collapse/Expand</EM> mode and click on                 the collapsed node.&nbsp; The cursor should change to a                 down-arrow when over the correct object to click on.</LI></UL></TD></TR>      <TR>        <TD vAlign=center width=150><B>Returning to Text Mode</B>&nbsp; </TD>        <TD> Press the &quot;Text&quot;             Button at the top of the screen to return to the Segmenter. You             can switch freely between text segmentation and text structuring mode             -- to edit text, or to change segment boundaries. The system             keeps track of the structure assigned so far. If you delete a segment             boundary in Text mode, the system forgets structuring information             concerning that segment.&nbsp; </TD></TR></TABLE>    <CENTER>&nbsp;</CENTER>        <CENTER ><P>        <TABLE ><TR border>             <TD>                <A href="section4.html#top" >Prior             Section</A></TD>                                                                         <TD><A href="index.html#top" >Contents</A>                      </DIV></TD><TD>                                       <A href="section6.html#top" >Next             Section</A>               </TD>               </TR></TABLE>             </P></CENTER></body></html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body  TEXT="#000000"  BGCOLOR="#FFCC66" LINK="#0000ff" VLINK="#000080">
+<P>&nbsp;</P>
+<H1 align=center><a name=top>5. Structuring Text </H1>
+<P align=center>&nbsp;</P>
+<P>The next step involves structuring the text. The second 
+interface of the RSTTool allows the user to connect the segments into a 
+rhetorical structure tree, as shown in figure 2. We have followed the graphical 
+style presented in Mann &amp; Thompson (1987). <BR>&nbsp; 
+<P>
+<CENTER><IMG src="structurer.gif" > 
+<br>Figure 2: The Structurer interface. </CENTER>
+<P>Initially, all segments are unconnected, ordered at the 
+top of the window. The user can then drag the mouse from one segment (the 
+satelite) to another (the nucleus) to link them (see instructions below). 
+<P>The system allows both plain RST relations and also 
+multi-nuclear relations (e.g., joint, sequence, etc.). Scoping is also possible, 
+whereby the user indicates that the nucleus of a relation is not a segment 
+itself, but rather a segment and all of its satellites. See figure 3 for an 
+example combining normal RST relations (Coocurrence, Cause); multi-nuclear 
+structure (Conjunction), and scoping (the nodes marked 3-4 and 5-6). In 
+addition, McKeon-style <I>schemas</I> can be used to 
+represent constituency-type structures. See figure 4. 
+<P>
+<CENTER><IMG src="rst.gif"> 
+
+<br>Figure 3: RST Structuring </CENTER>
+<P>&nbsp;
+<CENTER><IMG src="joke.gif"> 
+<br>
+Figure 4: Schema-based Structuring </CENTER>
+<P><B>Where to Click</B>: For all 
+interface actions involving clicking on the interface, a box will appear under 
+the nodes which are valid to click upon when the mouse cursor is over them. For 
+instance, in link mode, only those text nodes which are not currently a satelite 
+of any node will hilight. When dragging from a satelite to a nucleus, only those 
+objects on the screen which can be dragged to will be boxed. Note however that 
+boxing does not apply to actions such as changing relation names (see below) or 
+collapse/expand of structure. 
+<P>In the following, &quot;clicking&quot; on a node implies 
+the left button on multiple-mouse systems (e.g., Sun, PC). 
+<P>
+<TABLE border=2 width=100%>
+    
+    <TR>
+        <TD bgColor=#0000ff colSpan=2 vAlign=center><B>
+		<FONT color=#ffffff>Structuring Operations</FONT></B>&nbsp; </TD></TR>
+    <TR>
+        <TD width=150><B>Linking 
+            Nodes</B></TD>
+        <TD><B>To link 
+            two nodes</B>:&nbsp; 
+            <OL>
+                <LI>Make sure you are in the 
+                &quot;Link&quot; mode: the &quot;Link&quot; button should be 
+                depressed, and the cursor should change to a 
+                &quot;&lt;-&gt;&quot; (only when over the edit canvas).&nbsp; 
+                <LI>Then, click down on the satelite node 
+                and drag to the nucleus (following the direction in which the 
+                RST arrow should be drawn). Then Release.&nbsp; 
+                <LI>A menu will be offered of the available 
+                relations. Select one by clicking on it.&nbsp; 
+                <LI>The nodes will then be linked.&nbsp; 
+                </LI></OL>
+            <P><B>Where to 
+            Click:&nbsp; </B>when connecting two nodes,&nbsp; you need to click on the 'text' part of the node. This will be 
+            the text of a leaf node.&nbsp; For span, multinuclear and schema 
+            nodes, click on the text indicating the span (e.g., 1-3). The 
+            applicable screen objects will be boxed when the mouse is over 
+            them.&nbsp; 
+            <P><B>Illegal Links</B>: 
+            If the link is illegal for some reason (e.g., the satelite already 
+            has a nucleus), then no link will be formed.&nbsp; 
+            <P><B>Linking to a 
+            Multinuclear or Schema Node</B>: If the nucleus is a multinuclear or 
+            schema node, you will first be asked whether you want to link the 
+            nodes using a simple RST relation or multinuclear/schema relation. 
+            If you select multinuclear, then the node will be linked using the 
+            same relation as the other element(s) of that multinuclear 
+            structure. If you select &quot;schema&quot;, then you will be 
+            presented with a list of the possible elements of the schema.&nbsp; 
+            <P><B>Linking Distant 
+            Nodes</B>: <font color=red>[NEW] </font>When two nodes to be linked are not present on the page 
+            at the same time, you cannot drag between them. To link them, shift-click
+	    on the satelite, then scroll the page to bring the nucleus into view.
+	    click on this node to link the satelite to it. 
+            <P><B>
+Choosing the 
+            Relation
+</B>: the list of relations offered to you is contextually 
+            restricted, e.g., when linking to a schema, only the elements of 
+            that schema will be offered.&nbsp; 
+            
+<P>
+	If none of the offered relations are 
+            appropriate for this instance (the relation is not yet defined in 
+            the system) you can press the &quot;Add New&quot; button at the 
+            bottom of the relation list to define a new relation. It will be 
+            added to the Relation Set.&nbsp;
+</P></TD></TR>
+	<TR>
+
+<TD vAlign=center width=150><B>Unlinking Nodes</B> 
+
+
+</TD>
+        <TD>To unlink two nodes:&nbsp; 
+            <OL>
+                <LI>Make sure you are in the 
+                &quot;Unlink&quot; mode: the &quot;Unlink&quot; button should be 
+                depressed, and the cursor should change to a &quot;X&quot; (only 
+                when over the edit canvas).&nbsp; 
+                <LI>Then, click on the satelite of the 
+                relation to be deleted.&nbsp; 
+                <LI>The relation will then be unlinked 
+                (sorry, no undo on such operations as yet).&nbsp; </LI></OL></TD></TR>
+    <TR>
+        <TD vAlign=center width=150><B>Inserting Text Spans</B></TD>
+        <TD>To insert a Span node over an 
+            existing node:&nbsp; 
+            <OL>
+                <LI>Click on the <I>Span</I> button;&nbsp; 
+                <LI>Click on the Node you require the Span 
+                node over.&nbsp; </LI></OL>
+            <P>A Span node allows you to group together a 
+            nucleus and all of its satelites into a single node. They allow you 
+            to vary the <I>scoping</I> of 
+            relations.&nbsp;</P>
+            <P>Note: New in version 2.4: you can now insert 
+            spans over elements which already have structure over 
+            them.</P></TD></TR>
+    <TR>
+        <TD vAlign=center width=150><B>Inserting Multinuclear Nodes</B>&nbsp; </TD>
+        <TD>To Insert a multinuclear node 
+            over a top-level node;&nbsp; 
+            <OL>
+                <LI>Click on the <I>Multinuclear</I> button;&nbsp; 
+                <LI>Click on the Node you require the 
+                Multinuclear node over.&nbsp; 
+                <LI>Select one of the multinuclear 
+                relations from the offered list.&nbsp; </LI></OL>
+            <P>Subsequent children linked to the 
+            multinuclear node will be joined with the same relation.&nbsp;</P>
+            <P>Note: New in version 2.4: you can now insert 
+            multinuclear nodes over elements which already have structure over 
+            them.</P></TD></TR>
+    <TR>
+        <TD vAlign=center width=150><B>Inserting a Schema</B></TD>
+        <TD>To Insert a schema node over a 
+            top-level node;&nbsp; 
+            <OL>
+                <LI>Click on the <I>Schema</I> button;&nbsp; 
+                <LI>Click on the Node you require the 
+                Schema node over.&nbsp; 
+                <LI>Select one of the schema elements from 
+                the offered list.&nbsp; </LI></OL>
+            <P>When linking subsequent children to the 
+            schema node, you will be offered a list of the elements only of that 
+            schema.&nbsp;</P>
+            <P>Note: New in version 2.4: you can now insert 
+            schemas over elements which already have structure over 
+            them.</P></TD></TR>
+    <TR>
+        <TD vAlign=center width=150><B>Changing a Relation</B></TD>
+        <TD>You can change the name of a 
+            relation just by clicking on it, and selecting a replacement from 
+            the list.&nbsp; </TD></TR>
+    <TR>
+        <TD vAlign=center width=150><B>Collapsing/Expanding Subtrees</B>&nbsp; </TD>
+        <TD> Because RST-structures can 
+            become very elaborate, the RSTTool allows the user to <I>collapse</I> sub-trees -- hiding the substructure under a 
+            node, This makes it easier, for instance, to connect two nodes which 
+            normally would not appear on the same page of the editor.&nbsp; 
+            <UL>
+                <LI>To collapse structure, click on the 
+                <EM>Collapse/Expand</EM>  mode button. The cursor, when over 
+                the analysis space, should change to an up-down arrow. The 
+                cursor changes to an up-arrow when over a unit which can be collapsed 
+                (any nonterminal node). Collapsed structure is indicated by a 
+                triangle on the display.</LI></UL>        
+                        
+                       
+            <UL>     
+                           
+                        
+                 
+                <LI>To Expand a subtree again, switch to 
+                <EM>Collapse/Expand</EM> mode and click on 
+                the collapsed node.&nbsp; The cursor should change to a 
+                down-arrow when over the correct object to click on.</LI></UL></TD></TR>
+  
+    <TR>
+        <TD vAlign=center width=150><B>Returning to Text Mode</B>&nbsp; </TD>
+        <TD> Press the &quot;Text&quot; 
+            Button at the top of the screen to return to the Segmenter. You 
+            can switch freely between text segmentation and text structuring mode 
+            -- to edit text, or to change segment boundaries. The system 
+            keeps track of the structure assigned so far. If you delete a segment 
+            boundary in Text mode, the system forgets structuring information 
+            concerning that segment.&nbsp; </TD></TR></TABLE>
+    <CENTER>&nbsp;</CENTER>
+
+
+        <CENTER ><P>
+        <TABLE ><TR border> 
+            <TD>
+                <A href="section4.html#top" >Prior 
+            Section</A></TD>       
+                           
+                       
+                <TD><A href="index.html#top" >Contents</A>      
+                </DIV></TD><TD>    
+                       
+            <A href="section6.html#top" >Next 
+            Section</A>  
+             </TD>  
+             </TR></TABLE> 
+            </P></CENTER>
+
+</body>
+</html>

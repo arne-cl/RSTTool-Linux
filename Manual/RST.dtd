@@ -1,1 +1,25 @@
-<!ELEMENT rst (header, body)><!ELEMENT header (relations)><!ELEMENT relations (rel)*><!ATTLIST relations	file CDATA #IMPLIED><!ELEMENT body (segment | group)*><!ELEMENT rel EMPTY><!ATTLIST rel	name CDATA #REQUIRED	type (rst | multinuc) #REQUIRED><!ELEMENT segment (#PCDATA)><!ATTLIST segment	id ID #IMPLIED	parent IDREF #REQUIRED	relname CDATA #REQUIRED><!ELEMENT group EMPTY><!ATTLIST group	id ID #IMPLIED	type (multinuc | span | constit) #REQUIRED	parent IDREF #IMPLIED	relname CDATA #IMPLIED>
+<!ELEMENT rst (header, body)>
+<!ELEMENT header (relations)>
+<!ELEMENT relations (rel)*>
+<!ATTLIST relations
+	file CDATA #IMPLIED
+>
+<!ELEMENT body (segment | group)*>
+<!ELEMENT rel EMPTY>
+<!ATTLIST rel
+	name CDATA #REQUIRED
+	type (rst | multinuc) #REQUIRED
+>
+<!ELEMENT segment (#PCDATA)>
+<!ATTLIST segment
+	id ID #IMPLIED
+	parent IDREF #REQUIRED
+	relname CDATA #REQUIRED
+>
+<!ELEMENT group EMPTY>
+<!ATTLIST group
+	id ID #IMPLIED
+	type (multinuc | span | constit) #REQUIRED
+	parent IDREF #IMPLIED
+	relname CDATA #IMPLIED
+>

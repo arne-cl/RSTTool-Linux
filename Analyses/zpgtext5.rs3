@@ -1,1 +1,115 @@
-<rst>  <header>    <relations>      <rel name="antithesis" type="rst" />      <rel name="background" type="rst" />      <rel name="circumstance" type="rst" />      <rel name="concession" type="rst" />      <rel name="condition" type="rst" />      <rel name="elaboration" type="rst" />      <rel name="enablement" type="rst" />      <rel name="evaluation" type="rst" />      <rel name="evidence" type="rst" />      <rel name="interpretation" type="rst" />      <rel name="justify" type="rst" />      <rel name="means" type="rst" />      <rel name="motivation" type="rst" />      <rel name="nonvolitional-cause" type="rst" />      <rel name="nonvolitional-result" type="rst" />      <rel name="otherwise" type="rst" />      <rel name="preparation" type="rst" />      <rel name="purpose" type="rst" />      <rel name="restatement" type="rst" />      <rel name="solutionhood" type="rst" />      <rel name="summary" type="rst" />      <rel name="unconditional" type="rst" />      <rel name="unless" type="rst" />      <rel name="unstated-relation" type="rst" />      <rel name="volitional-cause" type="rst" />      <rel name="volitional-result" type="rst" />      <rel name="conjunction" type="multinuc" />      <rel name="contrast" type="multinuc" />      <rel name="disjunction" type="multinuc" />      <rel name="joint" type="multinuc" />      <rel name="list" type="multinuc" />      <rel name="restatement-mn" type="multinuc" />      <rel name="sequence" type="multinuc" />    </relations>  </header>  <body>    <segment id="1">1) letterhead</segment>    <segment id="27">2) date</segment>    <segment id="28">3) salutation</segment>    <segment id="29" parent="40" relname="sequence">4) At 7:00  a.m. on October 25, our phones started to ring.</segment>    <segment id="4" parent="40" relname="sequence">5) Calls jammed our switchboard all day.</segment>    <segment id="5" parent="39" relname="span">6A) Staffers stayed late into the night,</segment>    <segment id="30" parent="5" relname="elaboration"> 6B) answering questions</segment>    <segment id="31" parent="5" relname="elaboration"> 6C) and talking with reporters from newspapers, radio stations, wire services and TV stations in every part of the country.</segment>    <segment id="6" parent="32" relname="circumstance">7A) When we released the results of ZPG&apos;s 1985 Urban Stress Test,</segment>    <segment id="32" parent="41" relname="span">  7B) we had no idea we&apos;d get such an overwhelming response.</segment>    <segment id="7" parent="42" relname="restatement-mn">8) Media and public reaction has been nothing short of incredible!</segment>    <segment id="26" parent="43" relname="contrast">9) At first, the deluge of calls came mostly from reporters eager to tell the public about Urban Stress Test results and from outraged public officials who were furious that we had &quot;blown the whistle&quot;  on conditions in their cities.</segment>    <segment id="8" parent="43" relname="contrast">10) Now we are hearing from concerned citizens in all parts of the country who want to know what they can do to hold local officials accountable for tackling population-related problems that threaten public health and well-being.</segment>    <segment id="9" parent="46" relname="span">11A)  ZPG&apos;s 1985 Urban Stress Test, [segment moved R] ,  is the nation&apos;s first survey of how population-linked pressures affect  U.S. cities.</segment>    <segment id="12" parent="9" relname="elaboration"> 11B) created after months of persistent and exhaustive research,</segment>    <segment id="33" parent="46" relname="elaboration"> 12) It ranks 184 urban areas on 11 different criteria ranging from crowding and birth rates to air quality and toxic wastes.</segment>    <segment id="13" parent="48" relname="span">13) The Urban Stress Test translates complex, technical data into an easy-to-use action tool for concerned citizens, elected officials and opinion leaders.</segment>    <segment id="14" parent="34" relname="purpose">14A) But to use it well,</segment>    <segment id="34" parent="49" relname="span"> 14B) we urgently need your help.</segment>    <segment id="15" parent="50" relname="joint">15A) Our small staff is being swamped with requests for more information</segment>    <segment id="35" parent="50" relname="joint"> 15B) and our modest resources are being stretched to the limit.</segment>    <segment id="16" parent="50" relname="nonvolitional-result">16)  Your support  now is critical.</segment>    <segment id="17" parent="58" relname="span">17)  ZPG&apos;s 1985 Urban Stress Test may be our best opportunity ever to get the population message heard.</segment>    <segment id="18" parent="56" relname="restatement-mn">18)  With your contribution, ZPG can arm our growing network of local activists with the materials they need to warn community leaders about emerging population-linked stresses before they reach crisis stage.</segment>    <segment id="19" parent="36" relname="concession">19A)  Even though our national government continues to ignore the consequences of uncontrolled population growth,</segment>    <segment id="36" parent="54" relname="span"> 19B) we can act to take positive action at the local level.</segment>    <segment id="20" parent="55" relname="solutionhood">20) Every day decisions are being made by local officials in our communities that could drastically affect the quality of our lives.</segment>    <segment id="21" parent="38" relname="solutionhood">  21A) To make sound choices in planning for people,</segment>    <segment id="38" parent="55" relname="span">  21B) both elected officials and the American public need the population-stress data revealed by our study.</segment>    <segment id="23" parent="61" relname="span">22) Please make a special contribution to Zero Population Growth today.</segment>    <segment id="24" parent="23" relname="motivation">23) Whatever you give -- $25, $50, $100 or as much as you can -- will be used immediately to put the Urban Stress Test in the hands of those who need it most.</segment><group id="39" type="span" parent="40" relname="sequence" /><group id="40" type="multinuc" parent="44" relname="background" /><group id="41" type="span" parent="42" relname="restatement-mn" /><group id="42" type="multinuc" parent="44" relname="span" /><group id="43" type="multinuc" parent="42" relname="elaboration" /><group id="44" type="span" parent="45" relname="span" /><group id="45" type="span" parent="53" relname="evidence" /><group id="46" type="span" parent="47" relname="span" /><group id="47" type="span" parent="13" relname="background" /><group id="48" type="span" parent="52" relname="concession" /><group id="49" type="span" parent="50" relname="nonvolitional-result" /><group id="50" type="multinuc" parent="52" relname="span" /><group id="52" type="span" parent="53" relname="span" /><group id="53" type="span" parent="60" relname="span" /><group id="54" type="span" parent="56" relname="restatement-mn" /><group id="55" type="span" parent="57" relname="span" /><group id="56" type="multinuc" parent="17" relname="elaboration" /><group id="57" type="span" parent="17" relname="elaboration" /><group id="58" type="span" parent="53" relname="evidence" /><group id="60" type="span" parent="23" relname="motivation" /><group id="61" type="span" />  </body></rst>
+<rst>
+  <header>
+    <relations>
+      <rel name="antithesis" type="rst" />
+      <rel name="background" type="rst" />
+      <rel name="circumstance" type="rst" />
+      <rel name="concession" type="rst" />
+      <rel name="condition" type="rst" />
+      <rel name="elaboration" type="rst" />
+      <rel name="enablement" type="rst" />
+      <rel name="evaluation" type="rst" />
+      <rel name="evidence" type="rst" />
+      <rel name="interpretation" type="rst" />
+      <rel name="justify" type="rst" />
+      <rel name="means" type="rst" />
+      <rel name="motivation" type="rst" />
+      <rel name="nonvolitional-cause" type="rst" />
+      <rel name="nonvolitional-result" type="rst" />
+      <rel name="otherwise" type="rst" />
+      <rel name="preparation" type="rst" />
+      <rel name="purpose" type="rst" />
+      <rel name="restatement" type="rst" />
+      <rel name="solutionhood" type="rst" />
+      <rel name="summary" type="rst" />
+      <rel name="unconditional" type="rst" />
+      <rel name="unless" type="rst" />
+      <rel name="unstated-relation" type="rst" />
+      <rel name="volitional-cause" type="rst" />
+      <rel name="volitional-result" type="rst" />
+      <rel name="conjunction" type="multinuc" />
+      <rel name="contrast" type="multinuc" />
+      <rel name="disjunction" type="multinuc" />
+      <rel name="joint" type="multinuc" />
+      <rel name="list" type="multinuc" />
+      <rel name="restatement-mn" type="multinuc" />
+      <rel name="sequence" type="multinuc" />
+    </relations>
+  </header>
+  <body>
+    <segment id="1">1) letterhead</segment>
+    <segment id="27">
+2) date</segment>
+    <segment id="28">
+3) salutation</segment>
+    <segment id="29" parent="40" relname="sequence">
+4) At 7:00  a.m. on October 25, our phones started to ring.</segment>
+    <segment id="4" parent="40" relname="sequence">
+5) Calls jammed our switchboard all day.</segment>
+    <segment id="5" parent="39" relname="span">
+6A) Staffers stayed late into the night,</segment>
+    <segment id="30" parent="5" relname="elaboration"> 6B) answering questions</segment>
+    <segment id="31" parent="5" relname="elaboration"> 6C) and talking with reporters from newspapers, radio stations, wire services and TV stations in every part of the country.</segment>
+    <segment id="6" parent="32" relname="circumstance">
+7A) When we released the results of ZPG&apos;s 1985 Urban Stress Test,</segment>
+    <segment id="32" parent="41" relname="span">  7B) we had no idea we&apos;d get such an overwhelming response.</segment>
+    <segment id="7" parent="42" relname="restatement-mn">
+8) Media and public reaction has been nothing short of incredible!</segment>
+    <segment id="26" parent="43" relname="contrast">
+9) At first, the deluge of calls came mostly from reporters eager to tell the public about Urban Stress Test results and from outraged public officials who were furious that we had &quot;blown the whistle&quot;  on conditions in their cities.</segment>
+    <segment id="8" parent="43" relname="contrast">
+10) Now we are hearing from concerned citizens in all parts of the country who want to know what they can do to hold local officials accountable for tackling population-related problems that threaten public health and well-being.</segment>
+    <segment id="9" parent="46" relname="span">
+11A)  ZPG&apos;s 1985 Urban Stress Test, [segment moved R] ,  is the nation&apos;s first survey of how population-linked pressures affect  U.S. cities.</segment>
+    <segment id="12" parent="9" relname="elaboration"> 11B) created after months of persistent and exhaustive research,</segment>
+    <segment id="33" parent="46" relname="elaboration"> 
+12) It ranks 184 urban areas on 11 different criteria ranging from crowding and birth rates to air quality and toxic wastes.</segment>
+    <segment id="13" parent="48" relname="span">
+13) The Urban Stress Test translates complex, technical data into an easy-to-use action tool for concerned citizens, elected officials and opinion leaders.</segment>
+    <segment id="14" parent="34" relname="purpose">
+14A) But to use it well,</segment>
+    <segment id="34" parent="49" relname="span"> 14B) we urgently need your help.</segment>
+    <segment id="15" parent="50" relname="joint">
+15A) Our small staff is being swamped with requests for more information</segment>
+    <segment id="35" parent="50" relname="joint"> 15B) and our modest resources are being stretched to the limit.</segment>
+    <segment id="16" parent="50" relname="nonvolitional-result">
+16)  Your support  now is critical.</segment>
+    <segment id="17" parent="58" relname="span">
+17)  ZPG&apos;s 1985 Urban Stress Test may be our best opportunity ever to get the population message heard.</segment>
+    <segment id="18" parent="56" relname="restatement-mn">
+18)  With your contribution, ZPG can arm our growing network of local activists with the materials they need to warn community leaders about emerging population-linked stresses before they reach crisis stage.</segment>
+    <segment id="19" parent="36" relname="concession">
+19A)  Even though our national government continues to ignore the consequences of uncontrolled population growth,</segment>
+    <segment id="36" parent="54" relname="span"> 19B) we can act to take positive action at the local level.</segment>
+    <segment id="20" parent="55" relname="solutionhood">
+20) Every day decisions are being made by local officials in our communities that could drastically affect the quality of our lives.</segment>
+    <segment id="21" parent="38" relname="solutionhood">  
+21A) To make sound choices in planning for people,</segment>
+    <segment id="38" parent="55" relname="span">  21B) both elected officials and the American public need the population-stress data revealed by our study.</segment>
+    <segment id="23" parent="61" relname="span">
+22) Please make a special contribution to Zero Population Growth today.</segment>
+    <segment id="24" parent="23" relname="motivation">
+23) Whatever you give -- $25, $50, $100 or as much as you can -- will be used immediately to put the Urban Stress Test in the hands of those who need it most.</segment>
+<group id="39" type="span" parent="40" relname="sequence" />
+<group id="40" type="multinuc" parent="44" relname="background" />
+<group id="41" type="span" parent="42" relname="restatement-mn" />
+<group id="42" type="multinuc" parent="44" relname="span" />
+<group id="43" type="multinuc" parent="42" relname="elaboration" />
+<group id="44" type="span" parent="45" relname="span" />
+<group id="45" type="span" parent="53" relname="evidence" />
+<group id="46" type="span" parent="47" relname="span" />
+<group id="47" type="span" parent="13" relname="background" />
+<group id="48" type="span" parent="52" relname="concession" />
+<group id="49" type="span" parent="50" relname="nonvolitional-result" />
+<group id="50" type="multinuc" parent="52" relname="span" />
+<group id="52" type="span" parent="53" relname="span" />
+<group id="53" type="span" parent="60" relname="span" />
+<group id="54" type="span" parent="56" relname="restatement-mn" />
+<group id="55" type="span" parent="57" relname="span" />
+<group id="56" type="multinuc" parent="17" relname="elaboration" />
+<group id="57" type="span" parent="17" relname="elaboration" />
+<group id="58" type="span" parent="53" relname="evidence" />
+<group id="60" type="span" parent="23" relname="motivation" />
+<group id="61" type="span" />
+  </body>
+</rst>

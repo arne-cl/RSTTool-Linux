@@ -1,1 +1,61 @@
-<rst>  <header>    <relations>      <rel name="???" type="rst">      <rel name="circumstance" type="rst">      <rel name="solutionhood" type="rst">      <rel name="elaboration" type="rst">      <rel name="background" type="rst">      <rel name="enablement" type="rst">      <rel name="motivation" type="rst">      <rel name="evidence" type="rst">      <rel name="justify" type="rst">      <rel name="volitional-cause" type="rst">      <rel name="nonvolitional-cause" type="rst">      <rel name="volitional-result" type="rst">      <rel name="nonvolitional-result" type="rst">      <rel name="purpose" type="rst">      <rel name="antithesis" type="rst">      <rel name="concession" type="rst">      <rel name="condition" type="rst">      <rel name="otherwise" type="rst">      <rel name="interpretation" type="rst">      <rel name="evaluation" type="rst">      <rel name="restatement" type="rst">      <rel name="summary" type="rst">      <rel name="conjunction" type="multinuc">      <rel name="disjunction" type="multinuc">      <rel name="sequence" type="multinuc">      <rel name="joint" type="multinuc">      <rel name="contrast" type="multinuc">    </relations>  </header>  <body>    <segment id=1 parent=16 relname="background">That year was to see the beginning of a mighty flood.</segment>    <segment id=2 parent=15 relname="sequence"> A young Englishman, Moreton Frewen, bought out the 76 brand from a ranchman on the Sweetwater River,</segment>    <segment id=9 parent=15 relname="sequence"> and the first big herd of cattle was driven onto Powder River.</segment>    <segment id=3 parent=17 relname="sequence"> Then the Anglo-American Cattle Company, first of the big overseas corporations, was organized in London,</segment>    <segment id=10 parent=18 relname="span"> and they established a "ranche"</segment>    <segment id=11 parent=10 relname="background"> where one of the little branching tributaries of Powder River flowed out of the mountains.</segment>    <segment id=4 parent=20 relname="sequence"> Word spread about the fortunes to be made,</segment>    <segment id=12 parent=20 relname="sequence"> and soon everybody who was anybody on either side of the Atlantic was talking about raising cattle in the West.</segment>    <segment id=5 parent=21 relname="joint"> Land was virtually free, courtesy of Uncle Sam!</segment>    <segment id=7 parent=23 relname="span"> No costs</segment>    <segment id=22 parent=7 relname="concession"> beyond the paltry wages of a handful of cowboys!</segment>    <segment id=8 parent=24 relname="span"> No capital investment to speak of</segment>    <segment id=13 parent=8 relname="elaboration"> -- a few rude log buildings.</segment>    <segment id=6 parent=25 relname="span"> No risks</segment>    <segment id=14 parent=6 relname="elaboration"> -- simply buy a herd and let nature do the rest!</segment><group id=15 type="multinuc" parent=16 relname="sequence"><group id=16 type="multinuc" parent=19 relname="span"><group id=17 type="multinuc" parent=16 relname="sequence"><group id=18 type="span" parent=17 relname="sequence"><group id=20 type="multinuc" parent=16 relname="sequence"><group id=21 type="multinuc"><group id=23 type="span" parent=21 relname="joint"><group id=24 type="span" parent=21 relname="joint"><group id=25 type="span" parent=21 relname="joint"><group id=19 type="span">  </body></rst>
+<rst>
+  <header>
+    <relations>
+      <rel name="???" type="rst">
+      <rel name="circumstance" type="rst">
+      <rel name="solutionhood" type="rst">
+      <rel name="elaboration" type="rst">
+      <rel name="background" type="rst">
+      <rel name="enablement" type="rst">
+      <rel name="motivation" type="rst">
+      <rel name="evidence" type="rst">
+      <rel name="justify" type="rst">
+      <rel name="volitional-cause" type="rst">
+      <rel name="nonvolitional-cause" type="rst">
+      <rel name="volitional-result" type="rst">
+      <rel name="nonvolitional-result" type="rst">
+      <rel name="purpose" type="rst">
+      <rel name="antithesis" type="rst">
+      <rel name="concession" type="rst">
+      <rel name="condition" type="rst">
+      <rel name="otherwise" type="rst">
+      <rel name="interpretation" type="rst">
+      <rel name="evaluation" type="rst">
+      <rel name="restatement" type="rst">
+      <rel name="summary" type="rst">
+      <rel name="conjunction" type="multinuc">
+      <rel name="disjunction" type="multinuc">
+      <rel name="sequence" type="multinuc">
+      <rel name="joint" type="multinuc">
+      <rel name="contrast" type="multinuc">
+    </relations>
+  </header>
+  <body>
+    <segment id=1 parent=16 relname="background">
+That year was to see the beginning of a mighty flood.</segment>
+    <segment id=2 parent=15 relname="sequence"> A young Englishman, Moreton Frewen, bought out the 76 brand from a ranchman on the Sweetwater River,</segment>
+    <segment id=9 parent=15 relname="sequence"> and the first big herd of cattle was driven onto Powder River.</segment>
+    <segment id=3 parent=17 relname="sequence"> Then the Anglo-American Cattle Company, first of the big overseas corporations, was organized in London,</segment>
+    <segment id=10 parent=18 relname="span"> and they established a "ranche"</segment>
+    <segment id=11 parent=10 relname="background"> where one of the little branching tributaries of Powder River flowed out of the mountains.</segment>
+    <segment id=4 parent=20 relname="sequence"> Word spread about the fortunes to be made,</segment>
+    <segment id=12 parent=20 relname="sequence"> and soon everybody who was anybody on either side of the Atlantic was talking about raising cattle in the West.</segment>
+    <segment id=5 parent=21 relname="joint"> Land was virtually free, courtesy of Uncle Sam!</segment>
+    <segment id=7 parent=23 relname="span"> No costs</segment>
+    <segment id=22 parent=7 relname="concession"> beyond the paltry wages of a handful of cowboys!</segment>
+    <segment id=8 parent=24 relname="span"> No capital investment to speak of</segment>
+    <segment id=13 parent=8 relname="elaboration"> -- a few rude log buildings.</segment>
+    <segment id=6 parent=25 relname="span"> No risks</segment>
+    <segment id=14 parent=6 relname="elaboration"> -- simply buy a herd and let nature do the rest!</segment>
+<group id=15 type="multinuc" parent=16 relname="sequence">
+<group id=16 type="multinuc" parent=19 relname="span">
+<group id=17 type="multinuc" parent=16 relname="sequence">
+<group id=18 type="span" parent=17 relname="sequence">
+<group id=20 type="multinuc" parent=16 relname="sequence">
+<group id=21 type="multinuc">
+<group id=23 type="span" parent=21 relname="joint">
+<group id=24 type="span" parent=21 relname="joint">
+<group id=25 type="span" parent=21 relname="joint">
+<group id=19 type="span">
+  </body>
+</rst>

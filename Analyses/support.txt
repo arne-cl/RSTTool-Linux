@@ -1,1 +1,167 @@
-     ----------------------------------------------------------------------------                       Microsoft Windows 95 README for Product Support                                         August 1996                 ----------------------------------------------------------------------------                          (c) Copyright Microsoft Corporation, 1996This document provides complementary or late-breaking information to supplementthe Microsoft Windows 95 documentation.------------------------How to Use This Document------------------------To view Support.txt on screen in Notepad, maximize the Notepad window.To print Support.txt, open it in Notepad or another word processor, and use the Print command on the File menu. -------- CONTENTS---------SUPPORT SERVICES	Standard Support	Other Microsoft Fee-Based Services===========================SUPPORT SERVICESIf you have a question about Microsoft Windows 95, first look in theprinted documentation or consult online Help. You can also find late-breaking updates and technical information in the online documentsthat came with Windows (for more information about these, see Readme.txt). These files provide general information that became available after the books in the product package were published. If you cannot find the answer, use the services listed below or contact your computer system vendor. Your computer system vendor might also provide electronic information services with support information specific to your hardware.Standard SupportYour Original Equipment Manufacturer (OEM) provides standard support for Microsoft Windows 95. Standard product support for this copy of Windows 95 is not provided by Microsoft Corporation or its subsidiaries. For product support, please refer to your computer manufacturer's support number provided in the documentation for your computer.When you call, you should be at your computer and have the appropriate productdocumentation at hand. Be prepared to give the following information:*	The version number of the Microsoft product that you are using*	The type of hardware that you are using*	The exact wording of any messages that appeared on your screen*	A description of what happened and what you were doing when the 	problem occurred*	A description of how you tried to solve the problemMicrosoft AnswerPoint Information ServicesAnswerPoint Information Services provides you with easy access to the latest technical and support information for Microsoft products. You can access a variety of low and no cost Information Services 24 hours a day, 365 days a year. Internet services (World Wide Web and FTP sites)Customers access the Microsoft Frequently Asked Questions, Software Library, and Knowledge Base more than 850,000 times each week on our Internet sites. Additional community services and technical information such as customer-to-customer newsgroups, and other technical information is also readily available. It’s easy to search through these technical sources to find what you need. If you’re an Internet user, you can access this no-charge information (connect charges may apply) at the following locations:* The World Wide Web site is located at http://www.microsoft.com*  The FTP site is located at ftp.microsoft.comThe Microsoft Network (MSN) and other online servicesYou can access the Microsoft Frequently Asked Questions, Software Library, Knowledge Base, customer-to-customer Bulletin Board Services, and other technical information on MSN and other online services. To access Microsoft services on MSN, choose Go To Other Location from the Edit menu, and then type MSSUPPORT. Microsoft TechNetMicrosoft TechNet is the front-line resource for fast, complete answers to technical questions on Microsoft systems and desktop products. Information available on TechNet ranges from crucial data on client-server and workgroup computing, systems platforms, and database products, to the latest on support for Microsoft Windows- and Macintosh-based applications. As a TechNet user you receive:* Twelve monthly compact discs containing the Microsoft Knowledge Base, Microsoft   operating-systems product resource kits, customer solutions, key Microsoft   conference session notes, and other valuable information* Twelve monthly supplemental (drivers and patches) compact discs containing the   Microsoft Software Library* A 20% discount on Microsoft Press booksFor more information about Microsoft TechNet, in the United States and Canada call (800) 344-2121 ext. 3024 between 7:00 A.M. and 7:00 P.M. Central time, Monday through Friday. Outside the U.S. and Canada, contact your Microsoft subsidiary, or call (303) 684-0914.Microsoft Developer Network Library (MSDN)CD-ROM-based MSDN is the comprehensive source of programming information and toolkits for those who write applications for the Microsoft Windows, Windows 95, and Windows NT operating systems, or who use Microsoft products for development purposes. Members with an MSDN annual subscription are kept up-to-date through regular deliveries of information, a newsletter, and other information sources.  For more information or to subscribe, call (800) 759-5474. Microsoft Download Service (MSDL)The Microsoft Download Service contains sample programs, device drivers, patches, software updates, and programming aids. Direct modem access to MSDL is available by dialing (206) 936-6735. The service is available 24 hours a day, 365 days a year.  Connect information: 1200, 2400, 9600, or 14400 baud, no parity, 8 data bits, and 1 stop bit. Microsoft FastTipsThis automated service provides quick answers to your common technical questions via an automated toll-free telephone number, fax, or mail. To access FastTips or to receive a map and catalog, call (800) 936-4200.Other Microsoft Fee-Based ServicesAnswerPoint PriorityAnswerPoint Priority fee-based options provide you with 24 hour per day, 7 daysper week access to Microsoft support engineers.Priority DesktopPriority Desktop provides technical product support for Microsoft Home products, Desktop Applications (excluding Microsoft Access), and Desktop Systems products, including networking and connectivity issues. Assistance with Desktop Application covers usability issues, which are defined as non-programming issues including:  product features, menu commands, formatting, setup, and aspects of the user interface.  Choose from a variety of pay per-incident and annual account options, which include toll-free priority telephone access to support engineers 24 hours a day, 7 days a week.Other AnswerPoint fee-based options include:* Priority Office Developer* Priority Developer* Priority Comprehensive* AnswerPoint Consulting LineFor additional information or to purchase any of the AnswerPoint fee-based options, call Microsoft Support Sales at (800) 936-3500 from 6:00 A.M. to 6:00 P.M. Pacific time, Monday through Friday, excluding holidays.  Please note that technical assistance is not available through this number.
+
+     ----------------------------------------------------------------------------
+                       Microsoft Windows 95 README for Product Support
+                                         August 1996            
+     ----------------------------------------------------------------------------
+
+                          (c) Copyright Microsoft Corporation, 1996
+
+
+This document provides complementary or late-breaking information to supplement
+the Microsoft Windows 95 documentation.
+
+------------------------
+How to Use This Document
+------------------------
+
+To view Support.txt on screen in Notepad, maximize the Notepad window.
+
+To print Support.txt, open it in Notepad or another word processor, and use the 
+Print command on the File menu. 
+
+-------- 
+CONTENTS
+---------
+
+SUPPORT SERVICES
+	Standard Support
+	Other Microsoft Fee-Based Services
+
+===========================
+
+SUPPORT SERVICES
+
+If you have a question about Microsoft Windows 95, first look in the
+printed documentation or consult online Help. You can also find 
+late-breaking updates and technical information in the online documents
+that came with Windows (for more information about these, see Readme.txt). 
+These files provide general information that became available after the books 
+in the product package were published. If you cannot find the answer, use the 
+services listed below or contact your computer system vendor. Your computer 
+system vendor might also provide electronic information services with support 
+information specific to your hardware.
+
+
+Standard Support
+
+Your Original Equipment Manufacturer (OEM) provides standard support for 
+Microsoft Windows 95. Standard product support for this copy of Windows 95 is 
+not provided by Microsoft Corporation or its subsidiaries. For product support, 
+please refer to your computer manufacturer's support number provided in the 
+documentation for your computer.
+
+When you call, you should be at your computer and have the appropriate product
+documentation at hand. Be prepared to give the following information:
+
+*	The version number of the Microsoft product that you are using
+*	The type of hardware that you are using
+*	The exact wording of any messages that appeared on your screen
+*	A description of what happened and what you were doing when the 
+	problem occurred
+*	A description of how you tried to solve the problem
+
+
+Microsoft AnswerPoint Information Services
+AnswerPoint Information Services provides you with easy access to the latest 
+technical and support information for Microsoft products. You can access a 
+variety of low and no cost Information Services 24 hours a day, 365 days a 
+year. 
+
+
+Internet services (World Wide Web and FTP sites)
+Customers access the Microsoft Frequently Asked Questions, Software Library, 
+and Knowledge Base more than 850,000 times each week on our Internet sites. 
+Additional community services and technical information such as customer-to-
+customer newsgroups, and other technical information is also readily available. 
+It’s easy to search through these technical sources to find what you need. If 
+you’re an Internet user, you can access this no-charge information (connect 
+charges may apply) at the following locations:
+
+* The World Wide Web site is located at http://www.microsoft.com
+*  The FTP site is located at ftp.microsoft.com
+
+
+The Microsoft Network (MSN) and other online services
+You can access the Microsoft Frequently Asked Questions, Software Library, 
+Knowledge Base, customer-to-customer Bulletin Board Services, and other 
+technical information on MSN and other online services. To access Microsoft 
+services on MSN, choose Go To Other Location from the Edit menu, and then type 
+MSSUPPORT. 
+
+
+Microsoft TechNet
+Microsoft TechNet is the front-line resource for fast, complete answers to 
+technical questions on Microsoft systems and desktop products. Information 
+available on TechNet ranges from crucial data on client-server and workgroup 
+computing, systems platforms, and database products, to the latest on support 
+for Microsoft Windows- and Macintosh-based applications. As a TechNet user you 
+receive:
+
+* Twelve monthly compact discs containing the Microsoft Knowledge Base, Microsoft 
+  operating-systems product resource kits, customer solutions, key Microsoft 
+  conference session notes, and other valuable information
+* Twelve monthly supplemental (drivers and patches) compact discs containing the 
+  Microsoft Software Library
+* A 20% discount on Microsoft Press books
+
+For more information about Microsoft TechNet, in the United States and Canada 
+call (800) 344-2121 ext. 3024 between 7:00 A.M. and 7:00 P.M. Central time, Monday 
+through Friday. Outside the U.S. and Canada, contact your Microsoft subsidiary, or 
+call (303) 684-0914.
+
+
+Microsoft Developer Network Library (MSDN)
+CD-ROM-based MSDN is the comprehensive source of programming information and 
+toolkits for those who write applications for the Microsoft Windows, Windows 95, 
+and Windows NT operating systems, or who use Microsoft products for development 
+purposes. Members with an MSDN annual subscription are kept up-to-date through 
+regular deliveries of information, a newsletter, and other information sources.  
+For more information or to subscribe, call (800) 759-5474. 
+
+
+Microsoft Download Service (MSDL)
+The Microsoft Download Service contains sample programs, device drivers, patches, 
+software updates, and programming aids. Direct modem access to MSDL is available 
+by dialing (206) 936-6735. The service is available 24 hours a day, 365 days a year.  
+Connect information: 1200, 2400, 9600, or 14400 baud, no parity, 8 data bits, and 
+1 stop bit. 
+
+
+Microsoft FastTips
+This automated service provides quick answers to your common technical questions via 
+an automated toll-free telephone number, fax, or mail. To access FastTips or to receive 
+a map and catalog, call (800) 936-4200.
+
+
+Other Microsoft Fee-Based Services
+
+AnswerPoint Priority
+AnswerPoint Priority fee-based options provide you with 24 hour per day, 7 days
+per week access to Microsoft support engineers.
+
+
+Priority Desktop
+Priority Desktop provides technical product support for Microsoft Home products, 
+Desktop Applications (excluding Microsoft Access), and Desktop Systems products, 
+including networking and connectivity issues. Assistance with Desktop Application 
+covers usability issues, which are defined as non-programming issues including:  
+product features, menu commands, formatting, setup, and aspects of the user interface.  
+Choose from a variety of pay per-incident and annual account options, which include 
+toll-free priority telephone access to support engineers 24 hours a day, 7 days a week.
+
+Other AnswerPoint fee-based options include:
+* Priority Office Developer
+* Priority Developer
+* Priority Comprehensive
+* AnswerPoint Consulting Line
+
+For additional information or to purchase any of the AnswerPoint fee-based options, 
+call Microsoft Support Sales at (800) 936-3500 from 6:00 A.M. to 6:00 P.M. Pacific 
+time, Monday through Friday, excluding holidays.  Please note that technical 
+assistance is not available through this number.
+
+
+
+
+
+

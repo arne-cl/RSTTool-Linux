@@ -1,1 +1,85 @@
-<HTML><HEAD><TITLE>RSTTool Registration</TITLE><SCRIPT LANGUAGE="JavaScript">function show_props(obj, objName) {   var result = ""   for (var i in obj) {      result += objName + "." + i + " = " + obj[i] + "\n"   }   return result}function trim (Str) {  // Knock blanks off the end  if (Str.charAt(Str.length - 1) == " " ) {    Str = trim(Str.substring(0, Str.length - 1))  }  // replace internal blacks with '_'//  Str = myreplace(Str," ","_");//  Str = myreplace(Str,"/","_");  return Str}function myreplace (Str,Old,New) {   var S1 = Str.split(Old)   var NewStr = S1[0]   for (var i = 1; i < S1.length; i++) {     NewStr += New+S1[i]   }   return NewStr}function processClick () {   // the following for some reason makes this work under NS3.0    junk  = show_props(document.forms[0],"Forms")  // alert("Browser1: "+navigator.userAgent+" App: "+navigator.appName)     fnam= trim(document.forms[0].fname.value)     snam= trim(document.forms[0].sname.value)     emai= trim(document.forms[0].email.value)    if ( snam == "" || emai == "" ) {      alert("Please provide a name and email address")      return    }       window.location.href="http://www.cstr.ed.ac.uk/cgi-bin/rsttool.cgi?"+fnam+"_"+snam+"/"+emai}</script></HEAD><BODY bgcolor=white link="blue" vlink="blue" alink="blue" name="fff"><controls>  <TABLE BORDER CELLPADDING=4  cellspacing=9 ><tr><td><center><h1><font color=red>RSTTool -- Registration</font></h1><font size=3>Welcome to the RST Registration page. To facilitate support of thistool, I ask you to supply your email address so that I cankeep track of who is using it. Please fill in your name and emailaddress then click on the button below.</font><center><form method=get action="http://www.cstr.ed.ac.uk/cgi-bin/rsttool.cgi"><b>Given Name:</b>   <input size=25 name="fname" value=""><br><b>Surname:</b> <input size=25 name="sname" value=""><br><br><b>Email:</b>  <input size=25 name="email" value=""><br><input type="button" value="     Enter     " onClick='processClick()'></form></center></td></tr></table></body></html>
+<HTML><HEAD><TITLE>RSTTool Registration</TITLE>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+function show_props(obj, objName) {
+   var result = ""
+   for (var i in obj) {
+      result += objName + "." + i + " = " + obj[i] + "\n"
+   }
+   return result
+}
+
+function trim (Str) {
+
+  // Knock blanks off the end
+  if (Str.charAt(Str.length - 1) == " " ) {
+    Str = trim(Str.substring(0, Str.length - 1))
+  }
+
+  // replace internal blacks with '_'
+//  Str = myreplace(Str," ","_");
+//  Str = myreplace(Str,"/","_");
+  return Str
+}
+
+function myreplace (Str,Old,New) {
+
+   var S1 = Str.split(Old)
+   var NewStr = S1[0]
+   for (var i = 1; i < S1.length; i++) {
+     NewStr += New+S1[i]
+   }
+   return NewStr
+}
+
+function processClick () {
+   // the following for some reason makes this work under NS3.0
+    junk  = show_props(document.forms[0],"Forms")
+
+  // alert("Browser1: "+navigator.userAgent+" App: "+navigator.appName)
+     fnam= trim(document.forms[0].fname.value)
+     snam= trim(document.forms[0].sname.value)
+     emai= trim(document.forms[0].email.value)
+    if ( snam == "" || emai == "" ) {
+      alert("Please provide a name and email address")
+      return
+    }
+    
+   window.location.href="http://www.cstr.ed.ac.uk/cgi-bin/rsttool.cgi?"+fnam+"_"+snam+"/"+emai
+}
+
+</script>
+
+
+
+
+
+</HEAD>
+<BODY bgcolor=white link="blue" vlink="blue" alink="blue" name="fff">
+<controls>
+  <TABLE BORDER CELLPADDING=4  cellspacing=9 >
+<tr><td>
+<center><h1><font color=red>RSTTool -- Registration</font></h1>
+<font size=3>
+Welcome to the RST Registration page. To facilitate support of this
+tool, I ask you to supply your email address so that I can
+keep track of who is using it. Please fill in your name and email
+address then click on the button below.
+</font>
+<center>
+<form method=get action="http://www.cstr.ed.ac.uk/cgi-bin/rsttool.cgi">
+<b>Given Name:</b>   <input size=25 name="fname" value=""><br><b>Surname:</b> <input size=25 name="sname" value=""><br><br>
+<b>Email:</b>  <input size=25 name="email" value="">
+
+<br><input type="button" value="     Enter     " onClick='processClick()'>
+</form>
+</center></td></tr>
+
+</table>
+
+</body>
+</html>
+
