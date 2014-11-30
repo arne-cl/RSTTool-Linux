@@ -34,7 +34,8 @@ switch -- $tcl_version {
     
     "8.3" -
     "8.4" -
-    "8.5" {
+    "8.5" -
+    "8.6" {
 	set gdidir [file join $DLL_DIR GDI834]
 	package ifneeded printer 0.9.6.8 "
 	    load [file join $gdidir printer.dll]
