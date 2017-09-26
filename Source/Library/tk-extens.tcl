@@ -134,7 +134,7 @@ switch -- $tcl_platform(platform) {
 
     "unix" {
 	proc show-webpage {url} {
-	    exec netscape [list $url] &
+	    exec xdg-open [list $url] &
 	}
     }
 
